@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Main Corridor</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Pirata+One&family=UnifrakturCook:wght@700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-999px">Skip to main content</a>
+
+<!-- Mobile menu -->
+<input type="checkbox" id="menu" class="menu-checkbox">
+<label for="menu" class="menu-toggle" aria-label="Open menu">☰</label>
+<ul class="mobile-menu">
+  <label for="menu" class="menu-close">✕</label>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="silent2.html">Silent Hill 2</a></li>
+  <li><a href="silent3.html">Silent Hill 3</a></li>
+  <li><a href="silentf.html">Silent Hill f</a></li>
+</ul>
+
+<img class="doll" id="doll" src="images/graphics/heather pg.png" alt="Scroll to top" title="Silent">
+
+  <div class="container">
+    <div class="top">
+      <div class="portrait"></div>
+      <div class="banner"><a href="index.html">Silent Hill</a></div>
+    </div>
+
+    <nav class="nav" aria-label="Main">
+      <ul class="nav-list">
+        <li class="has-dropdown"><a href="silent2.html">Silent Hill 2</a>
+        <li class="has-dropdown"><a href="silent3.html">Silent Hill 3</a>
+        <li class="has-dropdown"><a href="silentf.html">Silent Hill f</a>
+        
+    </nav>
+
+    <div class="index">
+      <aside class="updates-aside">
+        <div class="aside-inner">
+          <div class="updates">
+            <h2>Conoce más de estos juegos</h2>
+            <ul id="log"></ul>
+            <p><a href="https://silenthill.fandom.com/wiki/Silent_Hill_(franchise)#Video_games">Silent Hill</a> y su <a href="https://www.flipsnack.com/E89A9C8C5A8/silent-hill">franquicia.</a></p>
+          </div>
+        </div>
+        <img class="candle" src="images/gifs/vela.gif" alt="">
+      </aside>
+
+      <main id="main">
+        <p><strong>Silent Hill,</strong> en esencia, se centra en la corrupción del mundo, la humanidad y la sociedad, explorando la oscuridad y el lado malvado de la humanidad, y cómo los humanos son los verdaderos "monstruos". 
+        En Silent Hill , diversos aspectos de la humanidad se representan y manifiestan como monstruos horriblemente repugnantes y hostiles. Por ello, el terror psicológico es quizás el punto fuerte de la saga.</p>
+        <img class="sword" src="images/gifs/espada.gif" alt="">
+        <hr>
+        <div class="blog-feed">
+          <h2>“Está bien... Solo fue un sueño.”</h2>
+          <small>Juego creado por Team Silent y Konami</small>
+          <p>El simbolismo es un elemento fundamental en Silent Hill , donde muchos lugares, entornos, monstruos, objetos e imágenes suelen contener un significado más profundo..</p>
+        </div>
+        <div class="buttons-n-blinkers" aria-label="Stamps">
+          <div class="track" id="track"><img src="images/graphics/sello1.jpg" alt=""><img src="images/graphics/sello 2.jpg" alt=""><img src="images/graphics/sello5.jpg" alt=""><img src="images/graphics/sello 3.jpg" alt=""><img src="images/graphics/sello 4.jpg" alt=""><img src="images/graphics/sello 6.jpg" alt=""><img src="images/graphics/sello 7.jpg" alt=""><img src="images/graphics/sello 8.jpg" alt=""><img src="images/graphics/sello9.jpg" alt=""><img src="images/graphics/sello10.jpg" alt=""><img src="images/graphics/sello11.jpg" alt=""><img src="images/graphics/sello 12.jpg" alt=""><img src="images/graphics/sello13.jpg" alt=""></div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+
+<footer>The Fear Of Blood Tends To Create Fear For The Flesh.
+<script>
+  
+// heather scrolls to top
+document.getElementById('doll').onclick=()=>scrollTo({top:0,behavior:'smooth'});
+</script>
+</body>
+</html>
